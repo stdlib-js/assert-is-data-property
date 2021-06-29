@@ -39,7 +39,7 @@ npm install @stdlib/assert-is-data-property
 ## Usage
 
 ```javascript
-var isDataProperty = require( '@stdlib/assert-is/data/property' );
+var isDataProperty = require( '@stdlib/assert-is-data-property' );
 ```
 
 #### isDataProperty( value, property )
@@ -122,7 +122,7 @@ bool = isDataProperty( obj, 'accessor' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var isDataProperty = require( '@stdlib/assert-is/data/property' );
+var isDataProperty = require( '@stdlib/assert-is-data-property' );
 
 var bool = isDataProperty( [ 'a' ], 'length' );
 // returns true
