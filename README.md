@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isDataProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property@deno/mod.js';
+import isDataProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property@v0.1.0-deno/mod.js';
 ```
 
 #### isDataProperty( value, property )
@@ -125,7 +125,7 @@ bool = isDataProperty( obj, 'accessor' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isDataProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property@deno/mod.js';
+import isDataProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property@v0.1.0-deno/mod.js';
 
 var bool = isDataProperty( [ 'a' ], 'length' );
 // returns true
